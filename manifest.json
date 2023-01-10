@@ -1,0 +1,15 @@
+{
+    "manifest_version": 3,
+    "version": "1.0.0",
+    "name": "Color Picker",
+    "description": "description!!!",
+    "background": {
+        "service_worker": "background.js"
+    },
+    "action": {
+        "default_popup": "index.html",
+        "default_title": "Color Picker",
+        "default_icon": "icon.png"
+    },
+    "permissions": ["activeTab", "tabs", "scripting", "clipboardRead"]
+}
