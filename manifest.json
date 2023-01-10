@@ -2,7 +2,7 @@
     "manifest_version": 3,
     "version": "1.0.0",
     "name": "Color Picker",
-    "description": "description!!!",
+    "description": "Simple color picker chrome extension to have possibilities pick any of the colors on the page and copy their HEX codes.",
     "background": {
         "service_worker": "background.js"
     },
